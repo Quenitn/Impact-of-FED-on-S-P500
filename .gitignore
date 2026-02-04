@@ -1,0 +1,18 @@
+# Environnement virtuel
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables d'environnement (TRÈS IMPORTANT pour la sécurité)
+.env
+
+# Données (Optionnel : si tu ne veux pas push ton CSV de 3h de calcul)
+# data/communication_with_sentiment.csv
+
+# Système Mac
+.DS_Store
